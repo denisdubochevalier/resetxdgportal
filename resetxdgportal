@@ -4,7 +4,6 @@ killall xdg-desktop-portal-hyprland
 killall xdg-desktop-portal-gnome
 killall xdg-desktop-portal-kde
 killall xdg-desktop-portal-lxqt
-killall xdg-desktop-portal-wlr
 killall xdg-desktop-portal
 sleep 1
 
@@ -15,6 +14,6 @@ else
     libDir=/usr/lib
 fi
 
-$libDir/xdg-desktop-portal-hyprland &
+$libDir/xdg-desktop-portal-wlr &
 sleep 2
 $libDir/xdg-desktop-portal &
